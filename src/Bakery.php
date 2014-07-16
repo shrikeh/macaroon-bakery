@@ -12,4 +12,9 @@ class Bakery extends Container
             return new \Shrikeh\Macaroons\Data\ChunkFactory();
         };
     }
+
+    public function bake($root, Packet $id, Packet $location)
+    {
+        
+    }
 }
